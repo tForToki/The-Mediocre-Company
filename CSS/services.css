@@ -1,6 +1,6 @@
 @font-face {
     font-family: Nunito;
-    src: url(/Fonts/static/Nunito-Bold.ttf);
+    src: url(../Fonts/static/Nunito-Bold.ttf);
 }
 body {
     background-color: #332828;
