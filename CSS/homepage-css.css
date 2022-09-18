@@ -1,0 +1,220 @@
+
+@font-face {
+    font-family: Nunito;
+    src: url(/Fonts/static/Nunito-Bold.ttf);
+}
+body {
+    background-color: #332828;
+    color: white;
+    font-family: Nunito;
+}
+
+.container {
+    background-color: rgb(36, 35, 36);
+    margin: 30px;
+    padding: 30px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid #0075ff;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-list li {
+    list-style: none;  
+    padding: 0 10px;
+}
+
+.nav-list a {
+
+    font-family: Nunito;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item:first-child{
+    margin-right: auto;
+}
+
+.nav-item:last-child {
+    margin-right: 100px;
+}
+
+.nav-list a:hover {
+    color: #92E5FF;
+}
+
+.nav-list a:active {
+    color: #00C2FF;
+}
+
+
+.content-heading {
+    margin: 8rem 5rem;
+    margin-bottom: 0;
+}
+.mid-content {
+    max-width: 1200px;
+    margin: 40px auto 0 auto;
+    display: flex;
+}
+.content {
+    margin-top: 0;
+    margin-left: 50px;
+    padding: 0 10px 10px 10px;
+    border-radius: 4px;
+    flex: 1;
+    order: 1;
+}
+
+.content h3 {
+    color: #0075ff;
+    font-size: 300%;
+    margin-left: 10px;
+}
+
+.content p {
+    color: #00C2FF;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+
+button {
+    background-color: #332828;
+    color: black;
+    border: 2px solid #0075ff;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    transition-duration: 4ms;
+
+    
+    
+}
+
+.button-1 a {
+    margin: 20px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: Nunito;
+}
+
+button:hover {
+    background-color: #0075ff;
+}
+
+
+.content-image {
+    margin-top: 138px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    flex: 1;
+    order: 2;
+}
+
+.mid-content img,
+.mid-2 img {
+    width: 485px;
+    height: 361px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+.mid-2
+{
+    max-width: 1200px;
+    margin: 40px auto 0 auto;
+    display: flex;
+}
+
+.mid-2-heading{
+    margin-bottom: 20px;
+    margin-right: 200px;
+    flex: 1;
+    order: 2;
+}
+.mid-2-heading h3 {
+
+    color: #0075ff;
+    font-size: 300%;
+    margin-left: 70px;
+    margin-top: 0;
+}
+
+.mid-2-heading p {
+    color: #00C2FF;
+    margin-left: 70px;
+    margin-top: 0;
+}
+.button-2 {
+    background-color: #332828;
+    color: black;
+    border: 2px solid #0075ff;
+    border-radius: 20px;
+    margin-left: 70px;
+    padding: 10px;
+    transition-duration: 4ms;
+}
+
+.button-2 a {
+    margin: 20px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: Nunito;
+}
+
+.content-image-2 {
+    margin-top: 0;
+    margin-left: 50px;
+    flex: 1;
+    order: 1;
+}
+
+/* Here is the CSS code for footer  */
+
+footer {
+    background-color: rgb(36, 35, 36);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-list a {
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(242, 226, 226);
+}
+.footer-list a:hover {
+    transition-duration: 10ms;
+    color: #00C2FF;
+}
+
+.footer-list li {
+    margin-top: 20px;
+}
+
+.end-line p {
+    display: flex;
+    justify-content: center;
+    color: rgb(157, 156, 156);
+    padding-bottom: 10px;
+}
+
+/* FOOTER ENDS  HERE  */
+
+
+
+

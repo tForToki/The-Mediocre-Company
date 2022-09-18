@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Nunito;
+    src: url(/Fonts/static/Nunito-Bold.ttf);
+}
+
+/* Copied From Homepage */
+.container {
+    background-color: rgb(36, 35, 36);
+    margin: 30px;
+    padding: 30px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid #0075ff;
+    
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-list li {
+    list-style: none;  
+    padding: 0 10px;
+}
+
+.nav-list a {
+
+    font-family: Nunito;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item:first-child{
+    margin-right: auto;
+}
+
+.nav-item:last-child {
+    margin-right: 100px;
+}
+
+.nav-list a:hover {
+    color: #92E5FF;
+}
+
+.nav-list a:active {
+    color: #00C2FF;
+}
+
+.nav-list a.active {
+    text-decoration: underline;
+}
+
+/* copy ends here */
+
+body {
+    background-color: #332828;
+    font-family: Nunito;
+}
+
+.main-main{
+    margin: 100px;
+    height: 607px;
+    width: 1280px;
+    display: flex;
+}
+.main-main h2{
+    font-size: 150%;
+    color: rgb(127, 127, 230);
+}
+.main-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.main-section h3 {
+    color: #0075ff;
+}
+
+.main-section p {
+    color: rgb(136, 157, 159);
+}
+.pro-image {
+    margin-left: 50px;
+    background-color: #352E2E;
+    width: 270px;
+    height: 270px;
+    border-radius: 20px;
+}
+
+.main-section img {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+span {
+    color: #0075ff;
+    font-size: 100%;
+}
+
+.sidebar {
+    margin-left: 20px;
+    width: 880px;
+    height: 515px;
+    background-color: #352E2E;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.sidebar li {
+    margin-right: 20px;
+    padding: 35px;
+    list-style: none;
+}
+
+.sidebar a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: #92E5FF;
+}
+
+.social-links img {
+    height: 24px;
+    width: 24px;
+    padding: 0;
+}
+
+/* Here is the CSS code for footer  */
+
+footer {
+    background-color: rgb(36, 35, 36);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-list a {
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(242, 226, 226);
+}
+.footer-list a:hover {
+    transition-duration: 10ms;
+    color: #00C2FF;
+}
+
+.footer-list li {
+    margin-top: 20px;
+}
+
+.end-line p {
+    display: flex;
+    justify-content: center;
+    color: rgb(157, 156, 156);
+    padding-bottom: 10px;
+}
+
+/* FOOTER ENDS  HERE  */
