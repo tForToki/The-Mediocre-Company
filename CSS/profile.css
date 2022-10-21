@@ -2,8 +2,14 @@
     font-family: Nunito;
     src: url(../Fonts/static/Nunito-Bold.ttf);
 }
+body {
+    background-color: #332828;
+    font-family: Nunito;
+}
 
-/* Copied From Homepage */
+    /* Copied From Homepage */
+
+
 .container {
     background-color: rgb(36, 35, 36);
     margin: 30px;
@@ -17,6 +23,7 @@
 .nav-list {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .nav-list li {
@@ -51,12 +58,12 @@
     text-decoration: underline;
 }
 
-/* copy ends here */
-
-body {
-    background-color: #332828;
-    font-family: Nunito;
+.nav-button {
+    display: flex;
+    
 }
+
+/* copy ends here */
 
 .main-main{
     margin: 100px;
@@ -170,3 +177,15 @@ footer {
 }
 
 /* FOOTER ENDS  HERE  */
+
+@media screen and (min-width:1024px) {
+    
+    .dropdown {
+        display: none;
+    }
+}
+
+
+
+
+

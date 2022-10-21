@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Services - Find our best deal for you</title>
     <link rel="stylesheet" href="CSS/services.css">
+    <link rel="stylesheet" href="CSS/mobileServices.css">
 </head>
 
 <body>
@@ -14,35 +15,48 @@
         <ul class="nav-list">
             <li class="nav-item"><a href="#"><img src="Images/Logo.svg" alt="">
                 </a></li>
-            <li class="nav-item"><a class="" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="" href="profile.html">Profile</a></li>
-            <li class="nav-item"><a class="active" href="Services.html">Services</a></li>
-            <li class="nav-item"><a class="" href="#">Contact</a></li>
+            <div class="dropdown">
+                <button class="dropbtn"><a href="#"><img src="Images/dropdown.svg" alt="">
+                    </a></button>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="profile.html">Profile</a>
+                    <a href="Services.html">Services</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="nav-button">
+                <li class="nav-item"><a class="" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="" href="profile.html">Profile</a></li>
+                <li class="nav-item"><a class="active" href="Services.html">Services</a></li>
+                <li class="nav-item"><a class="" href="#">Contact</a></li>
+            </div>
+
         </ul>
 
     </div>
     <h2>Services</h2>
     <div class="mid-section">
-        <div class="card-1">
+        <div class="card-1" id="card">
             <h3>Build A Dynamic And Responsive Website</h3>
 
             <p>We'll build you website for you or your company the way you tell us to build.</p>
-            <button><a href="">Get Now!</a></button>
+            <button class="card"><a href="https://www.fiverr.com/share/abdWx7">Get Now!</a></button>
         </div>
-        <div class="card-2">
+        <div class="card-2" id="card">
             <h3>Create An Android Application For Your Need
             </h3>
 
             <p>We'll build you optimised Android-OS application for your company.</p>
-            <button><a href="">Get Now!</a></button>
+            <button class="card"><a href="https://www.fiverr.com/tfortoki?up_rollout=true">Get Now!</a></button>
         </div>
-        <div class="card-3">
+        <div class="card-3" id="card">
             <h3>Design UI/UX For Websites Or Design Logos</h3>
 
             <p>We'll design UI/UX for apps and website or design logo for you and your company.</p>
-            <button><a href="">Get Now!</a></button>
+            <button class="card"><a href="https://www.fiverr.com/share/ozoPD4">Get Now!</a></button>
         </div>
-        
+
     </div>
 
     <footer>

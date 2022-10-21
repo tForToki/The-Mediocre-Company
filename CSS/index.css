@@ -1,8 +1,8 @@
-
 @font-face {
     font-family: Nunito;
     src: url(../Fonts/static/Nunito-Bold.ttf);
 }
+
 body {
     background-color: #332828;
     color: white;
@@ -18,13 +18,19 @@ body {
     border: 2px solid #0075ff;
 }
 
+.nav-button {
+    display: flex;
+    
+}
+
 .nav-list {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .nav-list li {
-    list-style: none;  
+    list-style: none;
     padding: 0 10px;
 }
 
@@ -35,7 +41,7 @@ body {
     color: white;
 }
 
-.nav-item:first-child{
+.nav-item:first-child {
     margin-right: auto;
 }
 
@@ -51,16 +57,17 @@ body {
     color: #00C2FF;
 }
 
-
 .content-heading {
     margin: 8rem 5rem;
     margin-bottom: 0;
 }
+
 .mid-content {
     max-width: 1200px;
     margin: 40px auto 0 auto;
     display: flex;
 }
+
 .content {
     margin-top: 0;
     margin-left: 50px;
@@ -92,8 +99,6 @@ button {
     padding: 10px;
     transition-duration: 4ms;
 
-    
-    
 }
 
 .button-1 a {
@@ -126,19 +131,19 @@ button:hover {
     border-radius: 10px;
 }
 
-.mid-2
-{
+.mid-2 {
     max-width: 1200px;
     margin: 40px auto 0 auto;
     display: flex;
 }
 
-.mid-2-heading{
+.mid-2-heading {
     margin-bottom: 20px;
     margin-right: 200px;
     flex: 1;
     order: 2;
 }
+
 .mid-2-heading h3 {
 
     color: #0075ff;
@@ -152,6 +157,7 @@ button:hover {
     margin-left: 70px;
     margin-top: 0;
 }
+
 .button-2 {
     background-color: #332828;
     color: black;
@@ -197,6 +203,7 @@ footer {
     padding: 20px;
     color: rgb(242, 226, 226);
 }
+
 .footer-list a:hover {
     transition-duration: 10ms;
     color: #00C2FF;
@@ -215,6 +222,9 @@ footer {
 
 /* FOOTER ENDS  HERE  */
 
-
-
-
+@media screen and (min-width:1024px) {
+    
+    .dropdown {
+        display: none;
+    }
+}

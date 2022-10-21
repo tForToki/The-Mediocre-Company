@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Mediocre Company - Continue Your Journey With Something Mediocre</title>
     <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/mobileHome.css">
 
 </head>
 
@@ -16,10 +17,24 @@
         <ul class="nav-list">
             <li class="nav-item"><a href="#"><img src="Images/Logo.svg" alt="">
                 </a></li>
-            <li class="nav-item"><a class="" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="" href="profile.html">Profile</a></li>
-            <li class="nav-item"><a class="" href="Services.html">Services</a></li>
-            <li class="nav-item"><a class="" href="#">Contact</a></li>
+            <div class="dropdown">
+                <button class="dropbtn"><a href="#"><img src="Images/dropdown.svg" alt="">
+                    </a></button>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="profile.html">Profile</a>
+                    <a href="Services.html">Services</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+
+            <div class="nav-button">
+                <li class="nav-item"><a class="" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="" href="profile.html">Profile</a></li>
+                <li class="nav-item"><a class="" href="Services.html">Services</a></li>
+                <li class="nav-item"><a class="" href="#">Contact</a></li>
+            </div>
+
         </ul>
 
     </div>
@@ -32,7 +47,7 @@
             <h3 class="content-heading">
                 Let's Create A Website For You.
             </h3>
-            
+
             <p>We'll create your dream website for you and your company. Your website is just one click away.</p>
 
             <button class="button-1"><a href="Services.html">Order Here!</a></button>

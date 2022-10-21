@@ -1,0 +1,110 @@
+@media screen and (max-width:767px) {
+  .nav-button {
+    display: none;
+  }
+
+  /* Dropdown Button */
+  .dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+  .mid-content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .content-image {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    flex: 1;
+    order: 2;
+  }
+
+  .content h3 {
+    color: #0075ff;
+    font-size: 150%;
+    margin-left: 10px;
+  }
+
+  .content-heading {
+    margin: 0rem;
+    margin-bottom: 0;
+  }
+
+  .content {
+    margin-top: 0;
+    margin-left: 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 4px;
+    flex: 1;
+    order: 1;
+  }
+
+  .mid-content img,
+  .mid-2 img {
+    width: 620px;
+    height: 350px;
+    border: 2px solid green;
+    border-radius: 10px;
+  }
+
+  .mid-2 {
+    margin: 40px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mid-2-heading h3 {
+    color: #0075ff;
+    font-size: 150%;
+    margin-left: 70px;
+    margin-top: 0;
+
+
+  }
+}
