@@ -1,4 +1,8 @@
 @media screen and (max-width:767px) {
+    .container {
+        clear: both;
+        display: table;
+    }
     .nav-button {
         display: none;
     }
